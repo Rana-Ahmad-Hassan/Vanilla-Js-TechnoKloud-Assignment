@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="justify-content: center; display: flex;">Student Portal
+    </h1>
+ <div class="container">
+    <input type="text" id="myInput" placeholder="names..or Id"  onkeyup="myFunc()">
+
+    <h2>Select the following Buttons to find Graduated or In Progress Students</h2>
+     <button type="button" class="btn btn-primary btn-lg" id="check1" onclick="highlightGraduates()">Graduated</button>
+     <button type="button" class="btn btn-primary btn-lg" id="check2" onclick="highlightNonGraduates()">In Progress</button>
+
+    <table border="2px" id="table">
+        <tr>
+            <th colspan="">Name</th>
+            <th colspan="">Id</th>
+            <th>Status</th>
+            <th colspan="">Proffession</th>
+        </tr>
+        <tr>
+            <td>Rana Subhan</td>
+            <td>001</td>
+            <td>Graduated</td>
+            <td>Software Engineer</td>
+        </tr>
+        <tr>
+            <td>Sir Ahmad</td>
+            <td>002</td>
+            <td>Graduated</td>
+            <td>Software Engineer</td>
+        </tr>
+        <tr>
+            <td>Rana Ahmad</td>
+            <td>003</td>
+            <td>In Progress</td>
+            <td>Software Engineer</td>
+        </tr>
+        <tr>
+            <td>Hassan Zubair</td>
+            <td>004</td>
+            <td>In Progress</td>
+            <td>Software Engineer</td>
+        </tr>
+        <tr>
+            <td>Hamza Rai</td>
+            <td>005</td>
+            <td>In Progress</td>
+            <td>Software Engineer</td>
+        </tr>
+        <tr>
+            <td>Rao Rabi</td>
+            <td>006</td>
+            <td>In Progress</td>
+            <td>Software Engineer</td>
+        </tr>
+        <tr>
+            <td>CH Asad</td>
+            <td>007</td>
+            <td>In Progress</td>
+            <td>Software Engineer</td>
+        </tr>
+    </table>
+</div>
+
+    <script src="script.js">
+     
+    </script>
+</body>
+
+</html>
